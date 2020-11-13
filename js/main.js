@@ -18,5 +18,13 @@ $(function(){
     $('#header__menu-btn').click(function(){
 		$(this).toggleClass('open');
 		$('.header__menu').toggleClass('open');
-	});
+    });
+
+    $('.main__slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+    });
+
+    $(".form__input-phone").mask("+7 (999) 999-99-99");
 });

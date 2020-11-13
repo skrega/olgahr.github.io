@@ -7,9 +7,11 @@
     <title>Академия карьерного развития</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Tenor+Sans&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="libs/fancybox/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="libs/slick/slick.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.min.css">
-    <link rel="stylesheet" href="libs/fancybox/jquery.fancybox.min.css">
+
 </head>
 
 <body>
@@ -51,7 +53,15 @@
         <div class="container">
             <div class="main__inner">
                 <div class="main__slider">
-                    <img src="images/main-img.jpg" alt="">
+                    <div class="main__slider-img">
+                        <img src="images/main-img.jpg" alt="">
+                    </div>
+                    <div class="main__slider-img">
+                        <img src="images/main-img.jpg" alt="">
+                    </div>
+                    <div class="main__slider-img">
+                        <img src="images/main-img.jpg" alt="">
+                    </div>
                 </div>
                 <div class="main__content">
                     <div class="main__heading">
@@ -552,7 +562,7 @@
                         </h2>
                         <div class="form__box">
                             <input type="text" class="form__input" name="name" placeholder="Имя">
-                            <input type="tel" class="form__input" name="phone" placeholder="Телефон">
+                            <input type="tel" class="form__input form__input-phone" name="phone" placeholder="Телефон">
                             <button type="submit" class="form__btn btn">Записаться</button>
                             <div class="form__box-item">
                                 <input id="formCheckbox" name="checkbox" type="checkbox" checked class="form__checkbox">
@@ -614,6 +624,10 @@
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="libs/fancybox/jquery.fancybox.min.js"></script>
+    <script src="libs/slick/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"
+        integrity="sha512-d4KkQohk+HswGs6A1d6Gak6Bb9rMWtxjOa0IiY49Q3TeFd5xAzjWXDCBW9RS7m86FQ4RzM2BdHmdJnnKRYknxw=="
+        crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
 </body>
 
